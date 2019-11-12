@@ -1,0 +1,22 @@
+{
+  "name": "le-portable-cli",
+  "version": "1.0.0",
+  "description": "Locale Emulator Portable CLI Tools With Node.js",
+  "main": "app.js",
+  "keywords": [
+    "locale emulator"
+  ],
+  "author": "Anas RAR <mynameanasrar@gmail.com> (https://anasrar.github.io/)",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anasrar/el-portable-cli"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "leportable": "app.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
